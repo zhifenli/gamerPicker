@@ -1,0 +1,42 @@
+body {
+    font-family: 'Teko', sans-serif;
+}
+p {
+    font-family: 'Ibarra Real Nova', serif;
+}
+h1 h2 h3 h4 h5 {
+    color: dark gray;
+}
+h1 {
+    text-shadow: 2px 2px orange;
+}
+footer, container {
+    background-color: #343a40;
+    color: orange;
+    font-decoration: underline;
+}
+main {
+    background-color: #ececec;
+}
+.footer-text {
+    font-size: 25px;
+}
+#carbonads {
+    position: static;
+    display: block;
+    max-width: 400px;
+    padding: 15px 15px 15px 160px;
+    margin: 2rem 0;
+    overflow: hidden;
+    line-height: 1.4;
+    text-align: left;
+    background-color: #dbdbdb;
+}
+@media (min-width: 576px)
+#carbonads {
+    max-width: 330px;
+    border-radius: 4px;
+}
+a:hover {
+  color: orange!important;
+}
